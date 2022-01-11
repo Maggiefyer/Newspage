@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>nznewsmain</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/84d43fa2e4.js" crossorigin="anonymous"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+
+body {
+  font-family: Arial;
+  padding: 0px;
+  background: white  100%;
+  background-image: url("") ;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+/*下拉广告栏*/
+body,h2,h3,h4,h5,h6,h7,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+h2,h3,h4,h5,h6,h7{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#000;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{clear: both;float: none;height: 0;overflow: hidden;}
+#container{width: 100%; margin: 0 auto;}
+p{ line-height: 100%}
+.hidden{background: #E6E6E6; text-align: center; height: auto; overflow: hidden;}
+.show{ background:white;text-align: center; height: 0; overflow: hidden; }
+
+.div_bgimg{
+        width: 100%;
+        height: 120%;
+        position: absolute;
+        margin: 0 auto;
+        top: 0;              
+        background-repeat: no-repeat;
+        background-size:cover ;
+        
+    }
+ .newspaper {
+         column-count: 3;
+         column-gap: 30px;
+         column-rule-style: solid;
+         column-rule-color: gray;
+}
+    
+/* Style the header */
+.header {
+  background-color: white;;
+  padding: 1px;
+  text-align: center;
+  margin: 0;
+}
+
+
+/*icon setting*/
+.fa {  
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;  
+}
+
+.fa:hover {
+    opacity:0.7;
+}
+
+.fa-facebook {
+  background: 0;
+  color:black;
+}
+
+.fa-twitter {
+  background: 0;
+  color: black;
+}
+
+ .fa-instagram {
+  background: 0;
+  color: black;
+}
+
+  .fa-youtube {
+  background: 0;
+  color: black;
+}
+.fa-thin {
+  background: 0;
+  color: black;
+}
+
+.picture1 {
+  background-color:white;
+  color: rgb(245, 246, 250);
+  border: 0;
+  margin: 0px;
+  padding: 0px;
+  opacity: 1;
+
+}
+
+h2 {
+text-align:left;
+color:rgb(134, 9, 9);
+text-shadow: 2px 3px 2px #333;
+font-size:1.5em;
+font-style: oblique;
+font-weight:bold
+
+}
+
+/* title settingh3, h4{ 
+    text-align:right;
+    color: black
+}
+
+a{
+    color:palevioletred
+}
+
+div{ border: 28px solid #555;
+width:280px;
+padding: 80px;
+margin: 45px;
+background-color: grey;
+}
+*/
+
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin:0
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color:white;
+}
+* {
+  box-sizing: border-box;
+}
+
+  background-image: url("") ;
+
+  margin: 0;
+}
+
+/*icon setting*/
+.fa {
+  
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;  
+}
+
+.fa:hover {
+    opacity:0.7;
+}
+
+.fa-facebook {
+  background: 0;
+  color:black;
+}
+
+.fa-twitter {
+  background: 0;
+  color: black;
+}
+
+.fa-instagram {
+  background: 0;
+  color: black;
+}
+.fa-youtube {
+  background: 0;
+  color: black;
+}
+
+.fa-cloud-sun-rain {
+  background: 0;
+  color: black;
+}
+.fa-linkedin{
+  background: 0;
+  color: black;
+}
+.fa-facebook {
+  background: 0;
+  color:black;
+}
+
+.fa-twitter {
+  background: 0;
+  color: black;
+}
+
+.fa-instagram {
+  background: 0;
+  color: black;
+}
+.fa-youtube {
+  background: 0;
+  color: black;
+}
+
+.fa-linkedin {
+  background: 0;
+  color: black;
+
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin:0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(114, 51, 51);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  column-gap: 30px;
+  column-rule-style: solid;
+  column-rule-color: gray;
+  background-color: white;
+}
+/* Create column rule between the columns */
+
+
+/* Left and right column */
+.column.side {
+  width: 30%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 40%;
+}
+
+/* Create two unequal columns that floats next to each other */
+.innercolumn {
+  float: right;
+  padding: 10px;
+  
+}
+.column.inner{
+  width: 15%;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* setting image background
+.img {
+  
+  width: 100%;
+  padding: 2px;
+  border-radius: 5%;
+  margin:1
+}*/
+
+/* Add a card effect for articles */
+.card {
+  background-color:white;
+ }
+/*Add a "text around picture" paragraph for news*/
+/*.imgP{
+  style:float:left; 
+  clear: both;" 
+  align ="center";}*/
+
+/* Clear floats after the columns */
+
+
+.footer {
+  background-color: #660202;
+  padding: 10px;
+  text-align: center;
+  width:100%;
+  height:60px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .sidecolumn, .middlecolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+element.style {
+    display: block;
+}
+img[AttributesStyle] {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    width: 350px;
+    aspect-ratio: auto 300 / 600;    
+    height: 800px;
+    margin: 0;
+}
+at bI.access (clientlibs-all.min.4750.js:3066)  
+at bI.fn.init.html (clientlibs-all.min.4750.js:3518)
+at Object.success (clientlibs-all.min.4750.js:5800)
+eval @ VM77:2(anonymous) @ clientlibs-all.min.4750.js:2096
+globalEval @ clientlibs-all.min.4750.js:2097
+domManip @ clientlibs-all.min.4750.js:3559
+append @ clientlibs-all.min.4750.js:3490
+(anonymous) @ clientlibs-all.min.4750.js:3527
+bI.access @ clientlibs-all.min.4750.js:3066
+html @ clientlibs-all.min.4750.js:3518
+(anonymous) @ clientlibs-all.min.4750.js:5800
+i @ clientlibs-all.min.4750.js:2799
+fireWith @ clientlibs-all.min.4750.js:2835
+cg @ clientlibs-all.min.4750.js:4436
+i @ clientlibs-all.min.4750.js:4534
+XMLHttpRequest.send (async)
+send @ clientlibs-all.min.4750.js:4521
+ajax @ clientlibs-all.min.4750.js:4408
+bI.<computed> @ clientlibs-all.min.4750.js:4451
+b @ clientlibs-all.min.4750.js:5800
+h @ clientlibs-all.min.4750.js:5808
+i @ clientlibs-all.min.4750.js:2799
+fireWith @ clientlibs-all.min.4750.js:2835
+cg @ clientlibs-all.min.4750.js:4436
+i @ clientlibs-all.min.4750.js:4534
+XMLHttpRequest.send (async)
+send @ clientlibs-all.min.4750.js:4521
+ajax @ clientlibs-all.min.4750.js:4408
+bI.<computed> @ clientlibs-all.min.4750.js:4451
+(anonymous) @ clientlibs-all.min.4750.js:5807
+each @ clientlibs-all.min.4750.js:2109
+each @ clientlibs-all.min.4750.js:2051
+(anonymous) @ clientlibs-all.min.4750.js:5805
+i @ clientlibs-all.min.4750.js:2799
+fireWith @ clientlibs-all.min.4750.js:2835
+ready @ clientlibs-all.min.4750.js:2896
+bZ @ clientlibs-all.min.4750.js:2905
+8DevTools failed to load source map: Could not load content for chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/sourceMap/chrome/iframe_handler.map: HTTP error: status code 404, net::ERR_UNKNOWN_URL_SCHEME
+/*img_ad定义广告图片* setting the ad picture*/
+.img_ad{ 
+    border-top-width: 10px;
+    border-right-width: 0px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    width: 100%;
+    aspect-ratio: auto 300 / 600;
+    height: 500px;
+}
+
+/*set a float icon on the page*/
+#top {
+            z-index: 2;
+            position: fixed;
+            top: 80px;
+            right: 100px;
+            font-size: 50px;
+            cursor: pointer;
+            opacity: 0.7;
+                                    
+        }
+ 
+ #top1 {
+            z-index: 2;
+            position: fixed;
+            top: 80px;
+            left: 100px;
+            font-size: 50px;
+            cursor: pointer;
+            opacity: 0.5;
+            width: 300px;
+            height: 100px;
+           
+          }
+          
+p, ul {
+  border: 0;
+  padding: 0em;
+}
+
+.block,li {
+  border: 0;
+  padding: .10em;
+  font-weight: 100;
+  font-size: 1.3em;
+  -moz-box-align:10;
+}
+
+ul { 
+  display: fixed;
+  list-style-type: none;
+  list-style-image:lower-roman;
+  list-style-position:inside;
+ 
+}
+/*list background picture*/
+li {
+     background: url("bg2.png");
+} 
+li:hover {background: url(bg2.png);
+}
+
+/*ul.li{
+
+    background:url("bg2.png");
+}*/
+
+.block {
+  display: block;
+}      
+.home .avia_textblock {
+    max-width: 180px;
+    margin: auto;
+}  
+</style>
+</head>
+<body class=div_bgimg  class="newspaper">
+  <!-- name a container to allow the slide show box appear on the top of the website-->
+  <div id="container">
+    <div class="hidden" id="hid"><p><iframe src="https://www.youtube.com/embed/_dyhSCO6vT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" margin="-3" border="10" width="1920" height="600" alt="" class="img_ad" align="center"></iframe></p></div><!--input video-->
+    <div class="show" id="sho" align="center"></div>
+  </div>
+  <!--use js to fulfill the function-->
+  <script type="text/javascript"> 
+   window.onload=function aa(){
+   show();
+   setTimeout("hide()",6000);
+   }
+   var h=0;
+   var hid=document.getElementById("hid");
+   var sho=document.getElementById("sho");
+   function show(){
+   if(h<300){
+    h+=5;
+    hid.style.height=h+"px";
+   }else{
+    return;
+   }
+   setTimeout("show()",30);
+   } 
+   function hide(){
+   if(h>0){
+    h-=5;
+    hid.style.height=h+"px";
+   }else{
+    dd();
+    return;
+   }
+   setTimeout("hide()", 30);
+   }
+   var a=0;
+   function dd(){
+   if(a<60){
+    a+=1;
+    sho.style.height=a+"px";
+   }else{
+    return;
+   }
+  return;
+   }
+
+</script>
+
+<!--SETTING THE HEADER ELEMENT-->
+<div class=header>
+    <p id="top"><a><img src="logo1.jpg" width="160", height="80" magin="-3"></a></p> 
+    <p id="top1" align="left" margin="5"><a href="https://weather.com/weather/today/l/-41.29,174.78?par=google/" class="fas fa-cloud-sun-rain"> </a></p> 
+
+ <div class="picture1" z-index:-1  style="background-color:white; border-color:gray;">  
+  
+    <h1 class="card-title" align="center"><font size="20" face="arial" color="black" strang  margin="0"> NZ News</font><img src="fern.png"width="100" height="100" style="float:middle" align-middle;></h1></h4>
+   <div><p class="card-text" align="center"><font size="2" face="arial" color="grey">FOLLOW US</font></p>
+    <p  align="center" margin="5"> <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+    <a href="https://twitter.com" class="fa fa-twitter"></a><a href="https://www.facebook.com" class="fa fa-instagram"></a><a href="https://www.linkedin.com" class="fa fa-linkedin" ></a><a href="https://www.facebook.com" class="fa fa-youtube" ></a></p></div>
+ 
+  </div>
+</div>
+
+  <!--set navagation bar reaction to link to the web--> 
+    
+  <hr color="darkred" font="bold" height="10px"width="1900">   
+<div class="topnav">
+    <a href="D:/Project2/nznewshome.html">Home</a>
+    <a href="#aboutus.asp">About Us</a>
+    <a href="#contactus.asp">Contact Us</a>
+    <a style="float:right" href="https://myaccount.nytimes.com/auth/login?response_type=cookie&amp;client_id=vi&amp;redirect_uri=https%3A%2F%2Fwww.nytimes.com%2Fsubscription%2Fmultiproduct%2Flp8KQUS.html%3FcampaignId%3D7JFJX%26EXIT_URI%3Dhttps%253A%252F%252Fwww.nytimes.com%252F&amp;asset=masthead" >Log In</a>
+    <hr color="darkred" font="bold" height="10px"width="1900">   
+</div>
+
+<div class="row" class="newspaper">   
+    <div class="column side">       
+              <div class="home">
+                <h2 class="fas fa-laptop-house" align="left">Technology</h2> 
+                <hr color="darkred" font="bold" height="10px" >              
+                         
+                 <div class="img" style="height:220px" style="float:left; clear: both">
+                
+                    <a href="https://www.vox.com/the-highlight/22585287/technology-smartphones-gmail-attention-morality"><img src="tech.png" align="left" width="280" hspace="8" vspace="1" margin="0" padding="-1"></a>
+                    <h3 face="Aril">It’s hard to be a moral person. Technology is making it harder.</h3>It was on the day I read a Facebook post by my sick friend that I started to really question my relationship with technology. </p> <a href="https://www.vox.com/the-highlight/22585287/technology-smartphones-gmail-attention-morality">Seeing more...</a>
+                 </div>  
+                 <hr color="darkgrey" font="bold" height="3px" >          
+                 <div class="img" style="height:200px" style="float:right; clear: both">
+                
+                    <a href="https://www.bbc.com/news/technology-58124495"><img src="apple1.jpg" align="right" width="280" hspace="8" vspace="1" margin="0" padding="-1"></a>
+                    <h3 face="Aril">Apple's new technology plunge it into crisis .</h3> WhatsApp head Will Cathcart called Apple's move "very concerning". Poeple worry Apple's new technology could be expanded and used to spy purpose. <a href="https://www.vox.com/the-highlight/22585287/technology-smartphones-gmail-attention-morality">Seeing more...</a></p>                 
+               
+                 </div> 
+              </div>
+              <div class="card"><!--card class can be-delete-->
+                <h2 class="fas fa-swimmer" >Sports</h2> 
+                <hr color="darkred" font="bold" height="10px" > 
+               
+                 <div class="img" style="height:280px">              
+                  <!--float表示使文字环绕在一个元素的四周，clear表示定义某一边是否有环绕文字-->
+                  <div style="float:left; clear: both;" align ="center">                    
+                   <iframe width="300" height="220"  align="left" src="https://www.youtube.com/embed/ExB63mG1R4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div> <h3>Tokyo Olympics: Carrington wins gold to make history</h3>
+                  It is Carrington's third gold medal of the Games, having won the the K1 200 and K2 500.She has now won five Olympic golds in her career surpassing the four gold won by fellow kayaker Ian Fergusson. Carrington is also the first New Zealand woman to win three gold medals at one Olympics.<i><a href="https://www.rnz.co.nz/news/tokyo-olympics/448549/tokyo-olympics-carrington-wins-gold-to-make-history#:~:text=It's%20Carrington's%20third%20gold%20medal,gold%20medals%20at%20one%20Olympics."> Seeing more... </a></i>
+                 </div>  
+                 <hr color="darkgrey" font="bold" height="3px" >  
+                 <div class="img" style="height:280px" >
+                 <div style="float:left; clear: both" align="left">
+                    <iframe width="300" height="200" align="right" src="https://www.youtube.com/embed/pwIbAsD1cfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+                    <p align="left"><h3 face="Aril">Tokyo Olympics:Lydia Ko make golf history for NZ.</h3>  Lydia Ko, golf history maker, is now Lydia Ko, Olympic history maker. The Kiwi who has become accustomed to notching milestones in a glittering career can chalk up another one, becoming the first golfer to win multiple Olympic medals on a day of high drama at the Kasumigaseki Country Club in Saitama.
+                    
+                    <a href="https://www.stuff.co.nz/sport/olympics/300377185/tokyo-olympics-lydia-ko-makes-golf-history-with-a-second-olympic-medal">seeing more...</a></p>                 
+                    </div>
+                 </div>               
+              </div>
+              
+              <div class="card">
+                <h2  class="fas fa-suitcase-rolling">Treval</h2>
+                <hr color="darkred" font="bold" height="10px"> 
+               
+              
+                <div class="img" style="height:210px">
+                  <div style="float:leftt; clear: both;" align ="center">
+                    <a href="https://www.bbc.com/news/business-58079107"><img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/6F0D/production/_119792482_gettyimages-1296528085.jpg"align="right" width="300" hspace="8" vspace="1" margin="0" padding="-1"></a>
+                </div> <h3>Covid travel: France moves to amber list and green list expands</h3>
+               Fully vaccinated passengers returning to England, Scotland and Northern Ireland from France will no longer need to quarantine after Sunday. <a href="https://www.bbc.com/news/business-58079107"><i> Seeing more... </i></a>           
+                          
+               <hr color="darkgrey" font="bold" height="3px" >  
+                </div> 
+                <div class="img" style="height:230px" style="float:left; clear: both";>
+                
+                    <a href="https://www.stuff.co.nz/national/health/coronavirus/125975615/covid19-travel-corridor-for-pacific-workers-to-free-up-300-miq-spots-per-month"><img src="J.png" align="left" width="300" hspace="8" vspace="1" margin="0" padding="-1"></a>
+                    <h3 face="Aril">Covid-19: Travel corridor for Pacific workers to free up 300 MIQ spots per month.</h3>Prime Minister Jacinda Ardern announced on Monday that Cabinet had agreed in principle for seasonal workers from Tonga, Samoa and Vanuatu to travel to New Zealand without undergoing a two-week stay in MIQ.
+                    
+                     <a href="https://www.stuff.co.nz/national/health/coronavirus/125975615/covid19-travel-corridor-for-pacific-workers-to-free-up-300-miq-spots-per-month">Seeing more... </a></p>                 
+               
+                 </div> 
+             </div>
+   </div>
+   <div class="column middle">
+     <div class="card">
+          <h2 id=font class="fas fa-globe-asia">Middle East News</h2> 
+          <hr color="darkred" font="bold" height="20px">          
+      <div class="img" style="height:330px">          
+       <div class="imgP">        
+          
+        <a href="https://www.arabnews.com/node/1906001/middle-east"><img src="iran.png" align="left" width="380" height="260" hspace="8" vspace="1" margin="0" padding="-1"></a>
+       </div> 
+        
+          <h3>Iraqi, Iranian heads of state discuss bilateral relations</h3>
+          
+         DUBAI: Iraq’s President Barham Salih met his Iranian counterpart, President Ebrahim Raisi, in Tehran on Thursday, ahead of the newly elected leader’s oath taking ceremony before parliament.
+          The relations between the two neighboring countries, and their importance, was discussed during their meeting, Iraqi National News Agency reported. 
+          Hardline cleric Raisi, who was endorsed by Iran’s supreme leader Ayatollah Ali Khamenei, won the election in June and succeeded Hassan Rouhani, who is viewed in the West as a moderate.
+          <a href="https://www.arabnews.com/node/1906001/middle-east">Seeing more here</a>
+     </div>
+     <hr color="darkgrey" font="bold" height="3px" >  
+     <div class="img" style="height:320px">          
+        <div class="imgP">           
+           
+         <a href="https://honestreporting.ca/hamas-economic-war-against-its-own-people-the-honest-report-podcast-episode-20/"><img src="https://honestreporting.ca/wp-content/uploads/2021/08/Hamas-350x250.jpg" align="right" width="380" height="260" hspace="8" vspace="1" margin="0" padding="-1"></a>
+        </div> 
+         
+           <h3>Hamas’ Economic War Against Its Own People: The Honest Report Podcast </h3>
+           
+           Palestinian residents of the Gaza Strip suffer from one of the highest levels of poverty and unemployment in the world. It is a human rights tragedy for the 1.8 million residents of the coastal enclave. But while international nongovernmental organizations and media outlets frequently point the finger at Israel, in reality, it is Hamas, the terrorist group which runs Gaza, which is wholly responsible.
+
+           Hamas actively steals hundreds of millions of dollars each year from its own people, and enriches its senior leadership as a result. 
+           <a href="https://honestreporting.ca/hamas-economic-war-against-its-own-people-the-honest-report-podcast-episode-20/">Seeing more</a>
+      </div>
+    </div>
+    <div class="card">
+          <h2 id=font class="fas fa-chart-line">Business</h2>
+          <hr color="darkred" font="bold" height="10px">           
+        <div class="img" style="height:300px"> 
+            <div style="float:right; clear: both;" align ="center"><a href="https://www.stuff.co.nz/business/125979816/nz-super-reforms-for-migrants-take-a-step-closer-to-becoming-law"><img src="https://resources.stuff.co.nz/content/dam/images/4/y/t/g/m/r/image.related.StuffBigHeadline.418x220.2306nc.11jm2n.png/1628146088503.jpg" align="left" width="360" height="260" hspace="8" vspace="1" margin="0" padding="1"></a></div>
+            <h3>NZ Super reforms for migrants take a step closer to becoming law</h3><p>National’s Andrew Bayly says cooperation between National and Labour on the New Zealand Superannuation and Retirement Income (Fair Residency) Amendment Bill is significant. Moves to make older migrants wait longer to qualify for NZ Super have taken a step closer to becoming law. But while MPs voted the New Zealand Superannuation and Retirement Income (Fair Residency) Amendment Bill through the committee stage of its passage through Parliament, they also agreed to delay the introduction by two years.<a href="https://www.stuff.co.nz/business/125979816/nz-super-reforms-for-migrants-take-a-step-closer-to-becoming-law">Seeing more</a></p>
+        </div>
+        <hr color="darkgrey" font="bold" height="3px" >  
+        <div class="img" style="height:200px"> 
+            <div style="float:left; clear: both;" align ="center"><a><img src="business.png" align="left" width="320" height="230"hspace="8" vspace="1" margin="0" padding="1"></a></div>
+            <h3>The world stock market are going down due to the third spreading of Convid-19 virous.</h3><p>The new type of virous named delta from Indian distroyed the dream of economy recoverary of the countries.Reflected to the stock market,  no countries can avoid the dession from the side effects of the spreading.</p>
+            <div style="float:left; clear: both;" align ="center"><a><img src="business2.png" align="left" width="320" height="230"hspace="8" vspace="1" margin="0" padding="1"></a></div> <p>Expesially the countries such as American, british and Austrilia. The hot money still try to make profit from the market. But the sign of the market shows the buyer are quiting slowly. The profit expection in future few two to three months are not good for most investers. This surf of virous will knock the stock market again. According to the experts estimate, the fully recover of the world economy might looking to the end of next year. But the optimist view is that the influnce  of covid virous will be lower and lower. Hopefully the booming of world stock market and econconmy innovation will come back with the nomal life. In this expection, The most hot investment trend will related to the technology development and science innovation area.</p>
+         </div>
+    </div>
+</div>        
+<div class="column side">        
+      <div class="card">
+        <h5 color="lightgrey" align="center" font=2 >FASHION FROMOTE</h5>
+        <hr color="darkred" font="bold" height="10px"width="500"> 
+       <div>
+        <iframe  src="https://www.youtube.com/embed/_dyhSCO6vT8" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" margin="-3" width="500" height="350" alt="" class="img_ad" align="center"></iframe> </p>
+       </div>
+     </div>
+     <div class="card">
+        <h5 color="#333" align="center" font=2 >ADVERTISTMENT</h5>
+        <hr color="darkred", size="bold" height=3px width="500"> 
+        <div class="innercolumn"> 
+            <p><div class="img" style="height:400px" align="center">
+               <img src="https://s0.2mdn.net/8180057/ECOSTORE_030_DIS_RATIONAL_FY22_300X600_JULY.gif" alt="Advertisement" border="0" width="220" height="400" style="display:block">
+            </div></p>
+         </div>
+        <div class="innercolumn">
+            <p><div class="img" style="height:400px; align="center" >
+               <img src="https://s0.2mdn.net/simgad/15463272899888757201" alt="Advertisement" border="0" width="220" height="400" style="display:block"></div></p>
+        </div>  
+     </div>          
+    <div class="card">
+        <h5 color="darkred" align="center" font=2 >TOP NEWS TODAY</h5>
+        <hr color="darkred" size="bold" height=10px width="500"> 
+           <div class="innercolumn">        
+            <p><div class="img" style="height:600px"  align="center" ><img src="https://tpc.googlesyndication.com/simgad/11383117123455519673" alt="Advertisement" border="0" width="280" height="500" style="display:block"></div></p>
+           </div> 
+           <div class="innercolumn" >
+         
+                <div class="img" style="height:600px" align="left" font="5">  
+                <ul>
+                <li><a href="#Technology" font="5">Technology</a></li> 
+                <li> <a href="#Sports">Sports</a> </li>
+                <li><a href="#Travel">Travel</a> </li>
+                <li><a href="#Middle East Issue">Middle East Issue</a></li>
+                <li> <a href="#Business">Businessy</a></li>
+                <li><a href="#Agriculture">Agriculture</a> </li>
+                <li><a href="#Science">Science</a> </li>
+                <li><a href="#Entertament">Entertament</a></li> 
+                <li><a href="#Econony">Econonyy</a> </li>
+                <li> <a href="#Events">Events</a> </li>
+                <li> <a href="#Politic">Politic</a> </li>
+                <li> <a href="#Life">Life</a> </li>
+                <li> <a href="https://www.zee5.com/zee5news/delta-plus-variant-of-covid-19-virus-everything-you-need-to-know-about-the-new-kid-on-the-block?gclid=EAIaIQobChMI6825o7ae8gIVVBwrCh3QngP8EAAYAyAAEgI0bfD_BwE">Healthy</a></li> 
+                <li> <a href="#Disaster">Disaster</a></li>
+                <li> <a href="#childrenwalfare">Childrenwalfare</a> </li> 
+                <li> <a href="#convid-19">Convid-19</a> </li>  
+                <li> <a href="#Crime">Crime</a> </li>           
+                </ul>   
+                </div>   
+                       
+           </div>   
+      </div>  
+    </div> 
+ 
+  <div class="footer">   
+    <hr color="darkred" font="bold" height="10px"width="1900"> 
+    <p  align="center" margin="5px"><font size="2" face="arial" color="grey">FOLLOW US</font></p>
+    <p><a href="https://www.facebook.com" class="fa fa-facebook"></a>
+      <a href="https://twitter.com" class="fa fa-twitter"></a>
+      <a href="https://www.facebook.com" class="fa fa-instagram"></a>
+      <a href="https://www.linkedin.com" class="fa fa-linkedin" aria-hidden="true"></a>
+      <a href="https://www.facebook.com" class="fa fa-youtube" >
+    </a></p>
+    <p><h4 color="lightgrey" >Breaking news?</h4>Send your photos, videos and tip-offs to <br><a href="#contactus.html">newsclue@nznews.co.nz</a>, or call us on 02108134029</p>
+  
+  </div>
+</body>
+</html>
